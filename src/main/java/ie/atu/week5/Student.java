@@ -9,23 +9,38 @@ public class Student {
         return StuName;
     }
 
-    public void setStuName(String stuName) {
-        this.StuName = stuName;
+    public void setStuName(String StuName) {
+        this.StuName = StuName;
     }
 
     public String getStuEmail() {
         return StuEmail;
     }
 
-    public void setStuEmail(String stuEmail) {
-        this.StuEmail = stuEmail;
+    public void setStuEmail(String StuEmail) {
+        this.StuEmail = StuEmail;
     }
 
     public String getStuCourse() {
         return StuCourse;
     }
 
-    public void setStuCourse(String stuCourse) {
-       this. StuCourse = stuCourse;
+    public void setStuCourse(String StuCourse) {
+       this. StuCourse = StuCourse;
     }
+
+    public Student(){
+
+
+    }
+    public Student(String StuName){
+        this.StuName = StuName;
+    }
+
+    public Student(String StuName, String StuEmail, String StuCourse){
+        this.StuName = StuName;
+        this.StuEmail = StuEmail;
+        this.StuCourse = StuCourse;
+    }
+
 }
