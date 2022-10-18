@@ -7,7 +7,11 @@ public class StudentApp {
     public static void main(String[] args) {
         System.out.println("Please enter student name: ");
         Scanner input = new Scanner(System.in);
-        double StuName = input.nextDouble();
+         String StuName = input.nextLine();
         System.out.println("You entered: " + StuName);
+
+        System.out.println("Please enter student email: ");
+        String StuEmail = input.nextLine();
+        System.out.println("You entered: " + StuEmail);
     }
 }
